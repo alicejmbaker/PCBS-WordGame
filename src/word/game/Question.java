@@ -1,7 +1,7 @@
 /**
  * Question.java
  * @author alicebaker
- * Last edited: Sat 2nd Feb 2019
+ * Last edited: Sun 3rd Feb 2019
  * Description: This class represents a quiz question
  */
 package word.game;
@@ -184,23 +184,23 @@ public class Question
         switch (answerOrder)
         {
             case 0:
-                output = "\n\tNew word: " + originalWord + "\n\n\t1. " + wrongAnswerOne + "\n\t2. "
-                 + wrongAnswerTwo + "\n\t3. " + wrongAnswerThree + "\n\t4. " + rightAnswer;
+                output = "\n\tNew word: " + originalWord + "\n\n\t " + wrongAnswerOne + "\n\t "
+                 + wrongAnswerTwo + "\n\t " + wrongAnswerThree + "\n\t " + rightAnswer;
                 break;
             
             case 1:
-                output = "\n\tNew word: " + originalWord + "\n\n\t1. " + wrongAnswerOne + "\n\t2. " 
-                 + wrongAnswerTwo + "\n\t3. " + rightAnswer + "\n\t4. " + wrongAnswerThree;
+                output = "\n\tNew word: " + originalWord + "\n\n\t " + wrongAnswerOne + "\n\t " 
+                 + wrongAnswerTwo + "\n\t " + rightAnswer + "\n\t " + wrongAnswerThree;
                 break;
             
             case 2:
-                output = "\n\tNew word: " + originalWord + "\n\n\t1. " + wrongAnswerOne + "\n\t2. "
-                 + rightAnswer + "\n\t3. " + wrongAnswerTwo + "\n\t4. " + wrongAnswerThree;
+                output = "\n\tNew word: " + originalWord + "\n\n\t " + wrongAnswerOne + "\n\t "
+                 + rightAnswer + "\n\t " + wrongAnswerTwo + "\n\t " + wrongAnswerThree;
                 break;
             
             case 3:
-                output = "\n\tNew word: " + originalWord + "\n\n\t1. " + rightAnswer + "\n\t2. " 
-                 + wrongAnswerOne + "\n\t3. " + wrongAnswerTwo + "\n\t4. " + wrongAnswerThree;
+                output = "\n\tNew word: " + originalWord + "\n\n\t " + rightAnswer + "\n\t " 
+                 + wrongAnswerOne + "\n\t " + wrongAnswerTwo + "\n\t " + wrongAnswerThree;
                 break;
         }
         return output;  
