@@ -227,8 +227,7 @@ public class WordGame
         
                 catch (InvalidMenuChoiceException e)
                 {
-                    System.out.println(e.getMessage());  
-                    System.out.println("\tHaving problems? Remember to type the synonym, not the answer number.");
+                    System.out.println(e.getMessage()); 
                     System.out.println("\t(You can press X to skip a question or M to return to the Main Menu.) ");
                     multipleChances = true;
                 }
