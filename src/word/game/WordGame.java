@@ -10,8 +10,6 @@ package word.game;
 import java.util.ArrayList; 
 import java.util.Random; 
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class WordGame 
 {
@@ -45,7 +43,7 @@ public class WordGame
             int index = new Random().nextInt(questionsList.size());     
             Question nextQuestion = questionsList.get(index);
             listForGame.add(nextQuestion);
-            questionsList.remove(index); 
+            questionsList.remove(index);
             // remove ensures questions are not duplicated within a single 10-question game
         } 
     }
